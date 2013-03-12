@@ -1,13 +1,15 @@
+#!/usr/bin/env python
+
 import RPi.GPIO as GPIO
 import time
 
-# The pin number for output
+# The pin number used for output
 pin = 12 
 
-# to use Raspberry Pi board pin numbers
+# set the pin number mode
 GPIO.setmode(GPIO.BOARD)
 
-# set up GPIO output channel 18 (12)
+# set our pin to output mode
 GPIO.setup(pin, GPIO.OUT)
 
 # blinking function
