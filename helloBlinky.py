@@ -23,4 +23,5 @@ def blink(pin):
 # blink!
 for i in range(0,50):
         blink(pin)
+        print ("blink! " + time.strftime("%H:%M:%S"))
 GPIO.cleanup() 
